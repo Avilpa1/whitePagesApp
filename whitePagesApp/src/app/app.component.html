@@ -1,4 +1,4 @@
-<!--The content below is only a placeholder and can be replaced.-->
+
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -7,10 +7,76 @@
 
 <div>
   
-<!--<input [(ngModel)]="search">-->
-<button (click)="getData()">test</button>
+<input [(ngModel)]="wpService.search">
+<button (click)="wpService.getData()">test</button>
+<h3>Click to display Data</h3>
+</div>
 
+<div *ngIf="wpService.results">
+
+<h4>Number: {{ wpService.results.phone_number }}</h4>
+
+
+<div *ngFor="let x of wpService.results.associated_people">
+  <h4>
+  Full Name: {{ x.name }}
+  </h4>
+  <p>
+  First: {{ x.firstname }}
+  <br>
+  Middle: {{ x.middlename }}
+  <br>
+  Last: {{ x.lastname }}
+  </p>
+  <hr>
+  <br>
+</div>
+
+<!--<div *ngFor="let x of wpService.results['results']">-->
+
+<!--<p>Name: {{ wpService.results[0] }}</p>-->
+
+
+
+<!--</div>-->
 </div>
 
 
+
+
 <router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<p>Model: {{ x.model }}</p>-->
+<!--<p>Manufacturer: {{x.manufacturer}}-->
+<!--<p>cost_in_credits: {{x.cost_in_credits}}-->
+<!--<p>length: {{x.length}}-->
+<!--<p>max_atmosphering_speed: {{x.max_atmosphering_speed}}-->
+<!--<p>crew: {{x.crew}}-->
+<!--<p>cargo_capacity: {{x.cargo_capacity}}-->
+<!--<p>consumables: {{x.consumables}}-->
+<!--<p>hyperdrive_rating: {{x.hyperdrive_rating}}-->
+<!--<p>MGLT: {{x.MGLT}}-->
+<!--<p>starship_class: {{x.starship_class}}-->
+<!--<p>pilots: {{x.pilots}}-->
+<!--<p>films: {{x.films}}-->
+<!--<p>created: {{x.created}}-->
+<!--<p>edited: {{x.edited}}-->
+<!--<p>url: {{x.url}}-->
+<!--<br>-->
+<!--<br>-->

@@ -8,18 +8,11 @@ import { ApiService } from './api.service';
 })
 
 export class AppComponent {
-  constructor(public _api : ApiService ){ }
+  constructor(public _api : ApiService, private wpService: ApiService, ){ }
   title = 'whitePagesApp';
   results: any;
   search: any
   
   
-  getData() {
-    this._api.getInfo()
-    .subscribe(
-      (response) =>  {
-        this.results = response
-        console.log(response)
-      })
-  }
+
 }
