@@ -6,11 +6,14 @@ import { AppComponent } from './app.component';
 import { LookupComponent } from './lookup/lookup.component';
 import { ApiService } from './api.service';
 import { FormsModule } from '@angular/forms';
+import { NavComponent } from './nav/nav.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LookupComponent
+    LookupComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

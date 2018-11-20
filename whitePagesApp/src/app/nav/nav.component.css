@@ -1,0 +1,169 @@
+.navBar {
+    	display: grid;
+    	grid-template-columns: 25% 1fr 1fr 1fr 1fr 25%;
+    	/*grid-template-rows: auto;*/
+        /*justify-items: start;*/
+        padding-bottom: 25px;
+        border-bottom: 1px solid #ddd;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #f9f9f9;
+        boxShadow: none;
+    	position: fixed;
+    	height: 100px;
+    	z-index: 1000;
+    	align-content: end;
+	
+        }
+
+.logo {
+        grid-row: 1/4;
+        justify-self: end;
+        }
+        
+#logo {
+        width: 190px;
+        height: 50px;
+        border-style: none;
+        margin-top: 15px;
+        /*margin-right: 0px;*/
+        padding-bottom: 20px;
+        }
+        
+#login {
+        border-width: 2px;
+        background-color: #f9f9f9;
+        color: #777;
+        border: solid 2px #777;
+        margin-right: 8px;
+        font-family: "Roboto", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+        border-radius: 2px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        line-height: 20px;
+        padding: 8px 14px;
+        }
+        
+.buttons {
+        justify-self: end;
+        margin-top: 25px;
+        }
+        
+#signup {
+        border-width: 2px;
+        background-color: #f9f9f9;
+        color: #4090e0;
+        border: solid 2px #4090e0;
+        margin-right: 8px;
+        font-family: "Roboto", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+        border-radius: 2px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        line-height: 20px;
+        padding: 8px 14px;
+        }
+
+#inputbox {
+        grid-column: 2/6;
+        justify-self: center;
+        background-image: url('https://www.whitepages.com/assets/wp-icons-svg/search-dusk-24-557958f629f82b50168b26257601c01844a5c213eb37719118c39a4f3c0cc658.svg');
+        background-position: 97%;
+        background-repeat: no-repeat; 
+        width: 630px;
+        padding: 0 7px;
+        background-color: #fff;
+        border: solid 1px #ccc;
+        border-radius: 2px;
+        height: 46px;
+        margin-top: 15px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        z-index: 1;
+        }
+
+#item1 {
+	grid-column: 2;
+	justify-self: end;
+	align-self: end;
+	line-height: 7px;
+	text-decoration: none;
+	font-size: 12px;
+        color: #aaa;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        font-family: "Roboto", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+        font-size: 12px;
+        color: #aaa;
+        margin-top: 22px;
+		}
+
+#item2 {
+        grid-column: 3;
+        align-self: end;
+        line-height: 7px;
+        text-decoration: none;
+        font-size: 12px;
+        color: #aaa;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        font-family: "Roboto", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+        font-size: 12px;
+        color: #aaa;
+		}
+
+#item3 {
+        grid-column: 4;
+        justify-self: start;
+        align-self: end;
+        line-height: 7px;
+        text-decoration: none;
+        font-size: 12px;
+        color: #aaa;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        font-family: "Roboto", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+        font-size: 12px;
+        color: #aaa;
+		}
+		
+#item4 {
+        grid-column: 5;
+        justify-self: start;
+        align-self: end;
+        line-height: 7px;
+        text-decoration: none;
+        font-size: 12px;
+        color: #aaa;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        font-family: "Roboto", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+        font-size: 12px;
+        color: #aaa;
+
+		}
+		
+/*.footer {*/
+/*        background-color: black;*/
+/*    height: 100px; */
+/*    width:100%;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: 0; */
+
+/*        }		*/
+		
+
+@media (height: 200px) {
+.navBar {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border-bottom: none;
+    }
+}
+

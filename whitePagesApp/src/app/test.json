@@ -1,0 +1,100 @@
+{
+   "id":"Phone.3e1d6fef-a2e1-4b08-cfe3-bc7128b6e299",
+   "phone_number":"6195814158",
+   "is_valid":true,
+   "country_calling_code":"1",
+   "line_type":"Mobile",
+   "carrier":"Cricket Wireless",
+   "is_prepaid":true,
+   "is_commercial":false,
+   "belongs_to":[
+      {
+         "id":"Person.92a5957a-fc22-494d-9edf-e14c8e5e7fb2",
+         "name":"Paul Avila",
+         "firstname":"Paul",
+         "middlename":null,
+         "lastname":"Avila",
+         "alternate_names":[
+
+         ],
+         "age_range":"30-34",
+         "gender":"Male",
+         "type":"Person",
+         "link_to_phone_start_date":"2018-06-06",
+         "industry":null
+      }
+   ],
+   "current_addresses":[
+      {
+         "id":"Location.33097afe-68b1-4dd7-b0d8-6e8699fcd692",
+         "location_type":"Address",
+         "street_line_1":"2260 Delany Dr",
+         "street_line_2":null,
+         "city":"San Ysidro",
+         "postal_code":"92173",
+         "zip4":"1624",
+         "state_code":"CA",
+         "country_code":"US",
+         "lat_long":{
+            "latitude":32.5574,
+            "longitude":-117.03829,
+            "accuracy":"RoofTop"
+         },
+         "is_active":true,
+         "delivery_point":"SingleUnit",
+         "link_to_person_start_date":"1987-05-01"
+      }
+   ],
+   "historical_addresses":[
+
+   ],
+   "associated_people":[
+      {
+         "id":"Person.614c5cbc-39eb-4fcb-8b28-d296e96c289a",
+         "name":"Rodolfo L Avila",
+         "firstname":"Rodolfo",
+         "middlename":"L",
+         "lastname":"Avila",
+         "relation":"Household"
+      },
+      {
+         "id":"Person.bea5e294-f3a6-44bb-848e-52a9c6f37453",
+         "name":"Rosario G Avila",
+         "firstname":"Rosario",
+         "middlename":"G",
+         "lastname":"Avila",
+         "relation":"Parent_Child"
+      },
+      {
+         "id":"Person.fa749ae0-3a50-41d8-83b9-d22678b449b1",
+         "name":"Rosario Avila",
+         "firstname":"Rosario",
+         "middlename":null,
+         "lastname":"Avila",
+         "relation":"Household"
+      },
+      {
+         "id":"Person.fb6144ff-ac52-455d-9728-e09a215ed230",
+         "name":"Antonio G Avila",
+         "firstname":"Antonio",
+         "middlename":"G",
+         "lastname":"Avila",
+         "relation":null
+      },
+      {
+         "id":"Person.fd16b566-23d1-4d7d-952c-57e4aabd29e6",
+         "name":"Lemon R Avila",
+         "firstname":"Lemon",
+         "middlename":"R",
+         "lastname":"Avila",
+         "relation":"Household"
+      }
+   ],
+   "alternate_phones":[
+      "6194284946"
+   ],
+   "error":null,
+   "warnings":[
+
+   ]
+}
